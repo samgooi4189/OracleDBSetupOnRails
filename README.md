@@ -8,7 +8,7 @@ Setup Oracle DB for Rails
 * sudo mv instantclient_12_1/* instantclient_12_2/
 * cd instantclient_12_2
 * sudo ln -s libclntsh.so.12.1 libclntsh.so
-* put this in ~/.profile 
+* put this in ~/.bashrc 
 ** export LD_LIBRARY_PATH="/opt/oracle/instantclient_12_2"
 * sudo apt-get install libaio1
 * bundle install
